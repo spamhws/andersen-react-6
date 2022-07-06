@@ -1,5 +1,6 @@
 .newTodoField {
   margin-top: 24px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -14,10 +15,11 @@
 }
 
 .newTodoField button {
-  width: 120px;
+  width: 130px;
   background-color: darkolivegreen;
   color: white;
   font-size: 20px;
+  border-radius: 12px;
 }
 
 .newTodoField button:hover {

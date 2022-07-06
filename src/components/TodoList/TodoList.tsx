@@ -7,9 +7,6 @@ import TodoFilter from '../TodoFilter/TodoFilter';
 import './Todolist.css';
 
 const TodoList: React.FC = () => {
-  const s = require('./Todolist.css');
-  console.log(s);
-
   const { error, loading, todos } = useTypedSelector((state) => state.todo);
   const { fetchTodos } = useActions();
 

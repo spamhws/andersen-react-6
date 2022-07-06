@@ -9,6 +9,11 @@
 .todoElement img {
   margin-bottom: 5px;
   width: 32px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.todoElement img:hover {
+  transform: scale(1.2);
 }
 
 .todoElement input {

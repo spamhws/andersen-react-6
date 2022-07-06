@@ -27,7 +27,7 @@ const NewTodoField: React.FC<Props> = ({ fetchTodos }: Props) => {
   }
 
   function onClick(): void {
-    if (!isTooLong) {
+    if (!isTooLong && fieldValue !== '') {
       handlePostRequest();
     }
   }
@@ -35,7 +35,7 @@ const NewTodoField: React.FC<Props> = ({ fetchTodos }: Props) => {
   function onKeyDown(event: React.KeyboardEvent<HTMLTextAreaElement>): void {
     if (event.key === 'Enter') {
       event.preventDefault();
-      if (!isTooLong) {
+      if (!isTooLong && fieldValue !== '') {
         handlePostRequest();
       }
     }
@@ -44,7 +44,7 @@ const NewTodoField: React.FC<Props> = ({ fetchTodos }: Props) => {
   return (
     <div className='newTodoField'>
       <textarea value={fieldValue} onChange={onChange} onKeyDown={onKeyDown}>
-        {' '}
+        {''}
       </textarea>
       <button onClick={onClick}>Add</button>
       <br />
