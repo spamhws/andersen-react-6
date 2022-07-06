@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/andersen-react-6/static/css/main.6edafc4c.css",
+    "main.js": "/andersen-react-6/static/js/main.29705835.js",
+    "static/media/editIcon.svg": "/andersen-react-6/static/media/editIcon.e3de0a3869a4366672c16ab5193c1681.svg",
+    "static/media/deleteIcon.svg": "/andersen-react-6/static/media/deleteIcon.5d614aeff7abbf736a0ab888508caf2e.svg",
+    "static/media/saveIcon.svg": "/andersen-react-6/static/media/saveIcon.fc48a86fa8d51fb89133cd00a5cdca8d.svg",
+    "static/media/completedIcon.svg": "/andersen-react-6/static/media/completedIcon.c356ef31a9f3171ae57c4567225ca2e8.svg",
+    "index.html": "/andersen-react-6/index.html",
+    "static/media/starIcon.svg": "/andersen-react-6/static/media/starIcon.550f395aa4f18050d7632858809f2178.svg",
+    "main.6edafc4c.css.map": "/andersen-react-6/static/css/main.6edafc4c.css.map",
+    "main.29705835.js.map": "/andersen-react-6/static/js/main.29705835.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6edafc4c.css",
+    "static/js/main.29705835.js"
+  ]
+}
