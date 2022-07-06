@@ -1,0 +1,32 @@
+.newTodoField {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.newTodoField textarea {
+  width: 430px;
+  margin-left: 20px;
+  resize: none;
+  padding-top: 8px;
+  height: 28px;
+}
+
+.newTodoField button {
+  width: 120px;
+  background-color: darkolivegreen;
+  color: white;
+  font-size: 20px;
+}
+
+.newTodoField button:hover {
+  background-color: rgb(68, 85, 37);
+}
+
+.newTodoField p {
+  width: 200px;
+  margin-left: 115px;
+  margin-right: auto;
+  margin-top: 0;
+}

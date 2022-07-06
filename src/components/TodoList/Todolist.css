@@ -1,0 +1,8 @@
+.todo {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: auto;
+  max-width: 800px;
+  gap: 16px;
+}

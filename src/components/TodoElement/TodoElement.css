@@ -1,0 +1,28 @@
+.todoElement {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  gap: 12px;
+  justify-content: center;
+}
+
+.todoElement img {
+  margin-bottom: 5px;
+  width: 32px;
+}
+
+.todoElement input {
+  width: 400px;
+  text-align: center;
+  border: none;
+  padding-top: 2px;
+  height: 28px;
+}
+
+.todoElement input:focus-visible {
+  border: none;
+}
+
+.todoElement input:focus {
+  border: none;
+}
